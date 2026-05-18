@@ -24,6 +24,8 @@ const MessageSchema = new Schema<IMessage>(
       type: String,
       required: true,
       trim: true,
+      // minlength: 1,
+      // maxlength: 5000,
     },
   },
   {
